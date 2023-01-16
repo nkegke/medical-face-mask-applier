@@ -1,5 +1,9 @@
 # Medical Face Mask Application Tool
 
+This is a tool that can be used to create masked versions of existing image datasets and study visual recognition problems, such as face identification/verification or emotion recognition in the presence of medical face masks.
+
+It also has fast ML inference & processing accelerated even on common hardware and can be utilized in real-time applications.
+
 ![](https://media.giphy.com/media/fuuKND9xnVUAjmi3gP/giphy.gif)
 
 ## Prerequisites
@@ -20,7 +24,7 @@ Apply mask on a single image:
 python mask_on_img.py IMAGE_NAME
 ```
 
-### Videos
+### Videos (preserving audio)
 
 Apply mask on multiple videos, by creating a folder 'videos' in the same directory and running:
 
@@ -44,5 +48,4 @@ Original |  Face Mesh |  Jawlines | Masked
 
 * Face Mesh tracking with [Google's MediaPipe Face Mesh](https://google.github.io/mediapipe/solutions/face_mesh).
 
-* Jawline extraction in lines 43-69 in ``` mask.py ``` and [face_mesh_model.png](https://drive.google.com/file/d/1GidA0rbojaNSHguom0d0ZS8ILyfUZxWK/view?usp=share_link).
-
+* Jawline extraction in lines 43-69 in ``` mask.py ``` and [face_mesh_model.png](face_mesh_model.png)
