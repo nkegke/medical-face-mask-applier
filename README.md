@@ -40,7 +40,7 @@ python mask_webcam.py
 
 Original |  Face Mesh |  Jawlines | Masked
 :-------:|:----------:|:----------:|:-----:
-<img src="https://drive.google.com/uc?export=view&id=1bli_MtMRfmgrjP_fod7yrAqUOwd9zi2g" alt="mypic" style="width:200px; height:246px"/>  |   <img src="https://drive.google.com/uc?export=view&id=14nByNCO02DK2uSUE25R8DGnftBThZW_r" alt="mypic" style="width:200px; height:246px"/>  | <img src="https://drive.google.com/uc?export=view&id=1_SSURysITwqF_ZLPJBsWyYCYbeX9_Ug9" alt="mypic" style="width:200px; height:246px"/> | <img src="https://drive.google.com/uc?export=view&id=1l9VkBN0DWTcKt92A6_1SspYOLmMbef09" alt="mypic" style="width:200px; height:246px"/>
+<img src="https://drive.google.com/uc?export=view&id=1bli_MtMRfmgrjP_fod7yrAqUOwd9zi2g" alt="orig" style="width:200px; height:246px"/>  |   <img src="https://drive.google.com/uc?export=view&id=14nByNCO02DK2uSUE25R8DGnftBThZW_r" alt="mesh" style="width:200px; height:246px"/>  | <img src="https://drive.google.com/uc?export=view&id=1_SSURysITwqF_ZLPJBsWyYCYbeX9_Ug9" alt="jaw" style="width:200px; height:246px"/> | <img src="https://drive.google.com/uc?export=view&id=1l9VkBN0DWTcKt92A6_1SspYOLmMbef09" alt="mask" style="width:200px; height:246px"/>
 
 * Face Mesh tracking with [Google's MediaPipe Face Mesh](https://google.github.io/mediapipe/solutions/face_mesh).
 
