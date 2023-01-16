@@ -44,4 +44,5 @@ Original |  Face Mesh |  Jawlines | Masked
 
 * Face Mesh tracking with [Google's MediaPipe Face Mesh](https://google.github.io/mediapipe/solutions/face_mesh).
 
-* Jawline extraction in lines 43-69 in ``` mask.py ``` and ``` face_mesh_model.png ```.
+* Jawline extraction in lines 43-69 in ``` mask.py ``` and [face_mesh_model.png](https://drive.google.com/file/d/1GidA0rbojaNSHguom0d0ZS8ILyfUZxWK/view?usp=share_link).
+
