@@ -16,6 +16,7 @@ pip install opencv-python
 pip install tqdm
 ```
 
+## How to run
 ### Image
 
 Apply mask on a single image:
