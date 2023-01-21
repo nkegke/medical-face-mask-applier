@@ -4,7 +4,9 @@ This is a tool that can be used to create masked versions of existing image data
 
 It also has fast ML inference & processing accelerated even on common hardware and can be utilized in real-time applications.
 
-![](https://media.giphy.com/media/fuuKND9xnVUAjmi3gP/giphy.gif)
+Input | Output
+:----:|:------:
+<img src="https://github.com/nkegke/files/blob/main/mask/def.gif" alt="def" style="width: 25vw;"/>  |   <img src="https://github.com/nkegke/files/blob/main/mask/mask.gif" alt="mask" style="width: 25vw;"/> 
 
 ## Prerequisites
 
@@ -45,7 +47,7 @@ python mask_webcam.py
 
 Original |  Face Mesh |  Jawlines | Masked
 :-------:|:----------:|:----------:|:-----:
-<img src="https://drive.google.com/uc?export=view&id=1bli_MtMRfmgrjP_fod7yrAqUOwd9zi2g" alt="orig" style="width:200px; height:246px"/>  |   <img src="https://drive.google.com/uc?export=view&id=14nByNCO02DK2uSUE25R8DGnftBThZW_r" alt="mesh" style="width:200px; height:246px"/>  | <img src="https://drive.google.com/uc?export=view&id=1_SSURysITwqF_ZLPJBsWyYCYbeX9_Ug9" alt="jaw" style="width:200px; height:246px"/> | <img src="https://drive.google.com/uc?export=view&id=1l9VkBN0DWTcKt92A6_1SspYOLmMbef09" alt="mask" style="width:200px; height:246px"/>
+<img src="https://github.com/nkegke/files/blob/main/mask/original.png" alt="orig" style="width:200px; height:246px"/>  |   <img src="https://github.com/nkegke/files/blob/main/mask/face_mesh.png" alt="mesh" style="width:200px; height:246px"/>  | <img src="https://github.com/nkegke/files/blob/main/mask/jawlines.png" alt="jaw" style="width:200px; height:246px"/> | <img src="https://github.com/nkegke/files/blob/main/mask/masked.png" alt="masked" style="width:200px; height:246px"/>
 
 * Face Mesh tracking with [Google's MediaPipe Face Mesh](https://google.github.io/mediapipe/solutions/face_mesh).
 
